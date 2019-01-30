@@ -24,28 +24,37 @@
           <!-- TODO: Other links -->
         </ul>
         <div id="start" class="m-4">
-          <button type="button" class="btn btn-outline-light" onclick="$('#start').addClass('d-none'); $('#media').removeClass('d-none').addClass('fade-in-f')">
+          <button type="button" class="btn btn-outline-light">
             Choose Medium
           </button>
         </div>
         <div id="media" class="btn-group m-4 d-none btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-outline-light">
-            <input type="radio" name="media_options" id="video">
+            <input type="radio" name="media_options" value="video">
             Video
           </label>
           <label class="btn btn-outline-light">
-            <input type="radio" name="media_options" id="music">
+            <input type="radio" name="media_options" value="music">
             Music
           </label>
           <label class="btn btn-outline-light">
-            <input type="radio" name="media_options" id="film">
+            <input type="radio" name="media_options" value="film">
             Film
           </label>
           <label class="btn btn-outline-light">
-            <input type="radio" name="media_options" id="word">
+            <input type="radio" name="media_options" value="word">
             Word
           </label>
         </div>
+        <!-- Video -->
+        <div id="video" class="media-container d-none text-light">
+          STUB
+        </div>
+        <!-- Music -->
+
+        <!-- Film -->
+
+        <!-- Word -->
         <div class="mt-auto p-2 text-center">
           <span class="text-light small">
             Photo credit to
@@ -82,6 +91,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+    <script src="assets/functions.js"></script>
   </body>
 </html>
