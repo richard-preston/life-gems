@@ -5,7 +5,7 @@ $('#start').click(function () {
 })
 
 // content selector
-$('input[name="media_options"]').change( function () {
+$('input[name="mediaOptions"]').change(function () {
   $('.media-container').addClass('d-none')
   $('#' + $(this).attr('value')).addClass('fade-in-f').removeClass('d-none')
 })
