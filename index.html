@@ -16,25 +16,34 @@
   <body>
 
     <!-- Main content -->
-    <div class="bg fade-in-s d-flex flex-column align-items-center">
+    <div class="bg fade-in-s blur-in d-flex flex-column align-items-center">
+
       <!-- Links -->
       <ul id="header" class="nav p-2 justify-content-center small">
         <li class="nav-item">
-          <a class="nav-link" href="#" data-toggle="modal" data-target="#about">About</a>
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#about">
+            About
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://saythanks.io/to/richard-preston">Say Thanks</a>
+          <a class="nav-link" href="https://saythanks.io/to/richard-preston" target="_blank">
+            Say Thanks
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/richard-preston/life-gems/issues">Report a Problem</a>
+          <a class="nav-link" href="https://github.com/richard-preston/life-gems/issues" target="_blank">
+            Report a Problem
+          </a>
         </li>
       </ul>
+
       <!-- Start button -->
       <div id="start" class="p-4">
         <button type="button" class="btn btn-outline-light">
           Choose Medium
         </button>
       </div>
+
       <!-- Media selector -->
       <div id="media" class="btn-group p-4 d-none btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-light">
@@ -54,47 +63,57 @@
           Word
         </label>
       </div>
+
       <!-- Video -->
       <div id="video" class="container media-container d-none">
         <!-- TODO: Filter -->
 
-        <!-- TODO: Loading icon, fade in each item when ready -->
         <div class="card-columns">
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qi-qG-fd7jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="Qi-qG-fd7jw">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Guinness World Record: Fastest Banjo Player</h5>
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xUlJ_6WHfh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="xUlJ_6WHfh8">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Lab Results - Cyanide & Happiness Shorts</h5>
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IWDy4-i8o08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="IWDy4-i8o08">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">George Michael's Unfailing Internal Clock</h5>
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Oh1nqnZAKxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="Oh1nqnZAKxw">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">priorities in yu-gi-oh</h5>
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qaPDFcc1EWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="qaPDFcc1EWU">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">If Alex Jones did Voiceover for Doom(2016)</h5>
@@ -102,20 +121,362 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GaB5AVNg14c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="GaB5AVNg14c">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">TransRacial: Antoine identifies as a 35-year-old white man from Colorado</h5>
             </div>
           </div>
           <div class="card">
-            <div class="card-img-top embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0cLxCjjJbnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-img-top">
+              <div class="youtube" data-embed="0cLxCjjJbnY">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Justin Roiland Prank Calls Joel Osteen's Mega Church</h5>
               <p class="card-text">The background of this video is that Joel Osteen had recently been criticized on Twitter for his megachurch's poor response to hurricane Harvey. Justin Roiland is the voice of Rick & Morty.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="XhufrnT4818">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">WKUK Call Of Duty</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="4vuW6tQ0218">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Monty Python - Dead Parrot</h5>
+              <p class="card-text">One of the greatest comedy sketches of all time, and it still holds up almost 50 years later. It was famously referenced by Margaret Thatcher, the "Iron Lady," in attempting to make fun of her political opponents.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="-v1OLMjG52I">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Monty Python - Silly job interview</h5>
+              <p class="card-text">Lesser known Python sketch, but a personal favorite.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="vcBn04IyELc">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Line Riders - Beethoven's 5th</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="kGgUK2s-sqA">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Trombone Meets The Bumblebee</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="r-tLUrL5JO8">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The OH HI MARK Piano</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="me2wbBIg5nI">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Magical Drum | Rudy Mancuso</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="9XM6P6mygPw">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Musical fuck you</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="IvUU8joBb1Q">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Wintergatan - Marble Machine (music instrument using 2000 marbles)</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="zPyUp6_E7sg">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">VSauce but out of context</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="9yUZTTLpDtk">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Secrets to measuring a piece of paper - Numberphile</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="xuCn8ux2gbs">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">history of the entire world, i guess</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="ESyJop31cmY">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Broccoli Tree: A Parable</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="rvskMHn0sqQ">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">A Selfish Argument for Making the World a Better Place – Egoistic Altruism</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="cZYNADOHhVY">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Fable of the Dragon-Tyrant</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="psaCM1j9LEM">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Meaning is a Jumper That You Have to Knit Yourself</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="YFHHGETsxkE">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">PAPERS, PLEASE - The Short Film (2018) 4K SUBS</h5>
+              <p class="card-test">Short film based on the award winning game by Lucas Pope.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="yqc9zX04DXs">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The history of our world in 18 minutes | David Christian</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="qE0UimODxNg">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">10,000 More Years of the Scientific Method</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="HoLhcdapmqg">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Game of Thrones; Or The Pain Of Falling Out Of Love With A Story</h5>
+              <p class="card-test">A very therapeutic video essay to watch.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="W_UQ5RI38Qc"></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">AVATAR: THE LAST AIRBENDER - The Weight Of Cinema Analysis (Part 1/4)</h5>
+              <p class="card-test">Video essay about my favorite show.</p>
+            </div>
+          </div>
+          <div class="card">
+              <div class="card-img-top">
+                <div class="youtube" data-embed="uiGQGmnMt0I"></div>
+              </div>
+            <div class="card-body">
+              <h5 class="card-title">What Writers Should Learn From The Legend Of Korra</h5>
+              <p class="card-test">Legend of Korra is often overlooked because its overall story is not as compelling as ATLA, but this video highlights its strengths well.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="z18LY6NME1s">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Arrival: A Response To Bad Movies</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="FF-tKLISfPE">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Steve Jobs Insult Response</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="efnHiz0USQE">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Living in extreme poverty</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="Gt2zubHcER4">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bernstein, The greatest 5 min. in music education</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="m6JTaRNTN0c"></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Death of Facebook | How Social Media Ripped Apart a Generation</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="Zh3Yz3PiXZw">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Alternative Math | Short Film</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="KUtMsDq0ZL0">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Musical Evolution in the Civilization VI Soundtrack</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="ZrVVvXOIwQc">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Professor Stephen Hawking 1942 - 2018</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="WSKi8HfcxEk">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Rise of the Machines – Why Automation is Different this Time</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="kl39KHS07Xc">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Universal Basic Income Explained – Free Money for Everybody? UBI</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="I47Y6VHc3Ms"></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Martin Luther King | "I Have A Dream" Speech</h5>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="MO0r930Sn_8">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Richard Feynman Magnets</h5>
             </div>
           </div>
         </div>
