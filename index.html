@@ -38,14 +38,14 @@
       </ul>
 
       <!-- Start button -->
-      <div id="start" class="p-4">
+      <div id="start" class="p-2">
         <button type="button" class="btn btn-outline-light">
           Choose Medium
         </button>
       </div>
 
       <!-- Media selector -->
-      <div id="media" class="btn-group p-4 d-none btn-group-toggle" data-toggle="buttons">
+      <div id="media" class="btn-group p-2 d-none btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-light">
           <input type="radio" name="mediaOptions" value="video">
           Video
@@ -65,11 +65,27 @@
       </div>
 
       <!-- Video -->
-      <div id="video" class="container media-container d-none">
-        <!-- TODO: Filter -->
 
+      <!-- Filter dropdown -->
+      <div class="dropdown media-dropdown text-center d-none p-2" id="videoDropdown">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" id="videoFilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Topic
+        </button>
+        <div class="dropdown-menu" aria-labelledby="videoFilter">
+          <a class="dropdown-item" data-filter="humor-video" href="#">Humor</a>
+          <a class="dropdown-item" data-filter="philosophy-video" href="#">Philosophy</a>
+          <a class="dropdown-item" data-filter="science-video" href="#">Science</a>
+          <a class="dropdown-item" data-filter="technology-video" href="#">Technology</a>
+          <a class="dropdown-item" data-filter="politics-video" href="#">Politics</a>
+          <a class="dropdown-item" data-filter="art-video" href="#">Art</a>
+          <a class="dropdown-item" data-filter="religion-video" href="#">Religion</a>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div id="video" class="container media-container d-none">
         <div class="card-columns small">
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="Qi-qG-fd7jw">
                 <div class="play-button"></div>
@@ -79,7 +95,7 @@
               <h6 class="card-title">Guinness World Record: Fastest Banjo Player</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="xUlJ_6WHfh8">
                 <div class="play-button"></div>
@@ -89,7 +105,7 @@
               <h6 class="card-title">Lab Results - Cyanide & Happiness Shorts</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="IWDy4-i8o08">
                 <div class="play-button"></div>
@@ -99,7 +115,7 @@
               <h6 class="card-title">George Michael's Unfailing Internal Clock</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="Oh1nqnZAKxw">
                 <div class="play-button"></div>
@@ -109,7 +125,7 @@
               <h6 class="card-title">priorities in yu-gi-oh</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="qaPDFcc1EWU">
                 <div class="play-button"></div>
@@ -120,7 +136,7 @@
               <p class="card-text">For all you info warriors.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="GaB5AVNg14c">
                 <div class="play-button"></div>
@@ -130,7 +146,7 @@
               <h6 class="card-title">TransRacial: Antoine identifies as a 35-year-old white man from Colorado</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="0cLxCjjJbnY">
                 <div class="play-button"></div>
@@ -141,7 +157,7 @@
               <p class="card-text">The background of this video is that Joel Osteen had recently been criticized on Twitter for his megachurch's poor response to hurricane Harvey. Justin Roiland is the voice of Rick & Morty.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="XhufrnT4818">
                 <div class="play-button"></div>
@@ -151,7 +167,7 @@
               <h6 class="card-title">WKUK Call Of Duty</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="4vuW6tQ0218">
                 <div class="play-button"></div>
@@ -162,7 +178,7 @@
               <p class="card-text">One of the greatest comedy sketches of all time, and it still holds up almost 50 years later. It was famously referenced by Margaret Thatcher, the "Iron Lady," in attempting to make fun of her political opponents.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="-v1OLMjG52I">
                 <div class="play-button"></div>
@@ -173,7 +189,7 @@
               <p class="card-text">Lesser known Python sketch, but a personal favorite.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="vcBn04IyELc">
                 <div class="play-button"></div>
@@ -183,7 +199,7 @@
               <h6 class="card-title">Line Riders - Beethoven's 5th</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="kGgUK2s-sqA">
                 <div class="play-button"></div>
@@ -193,7 +209,7 @@
               <h6 class="card-title">The Trombone Meets The Bumblebee</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="r-tLUrL5JO8">
                 <div class="play-button"></div>
@@ -203,7 +219,7 @@
               <h6 class="card-title">The OH HI MARK Piano</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="me2wbBIg5nI">
                 <div class="play-button"></div>
@@ -213,7 +229,7 @@
               <h6 class="card-title">The Magical Drum | Rudy Mancuso</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="9XM6P6mygPw">
                 <div class="play-button"></div>
@@ -223,7 +239,7 @@
               <h6 class="card-title">Musical fuck you</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="IvUU8joBb1Q">
                 <div class="play-button"></div>
@@ -233,7 +249,7 @@
               <h6 class="card-title">Wintergatan - Marble Machine (music instrument using 2000 marbles)</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="zPyUp6_E7sg">
                 <div class="play-button"></div>
@@ -243,7 +259,7 @@
               <h6 class="card-title">VSauce but out of context</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="9yUZTTLpDtk">
                 <div class="play-button"></div>
@@ -253,7 +269,7 @@
               <h6 class="card-title">Secrets to measuring a piece of paper - Numberphile</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video humor-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="xuCn8ux2gbs">
                 <div class="play-button"></div>
@@ -263,7 +279,7 @@
               <h6 class="card-title">history of the entire world, i guess</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="ESyJop31cmY">
                 <div class="play-button"></div>
@@ -273,7 +289,7 @@
               <h6 class="card-title">The Broccoli Tree: A Parable</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="rvskMHn0sqQ">
                 <div class="play-button"></div>
@@ -283,7 +299,7 @@
               <h6 class="card-title">A Selfish Argument for Making the World a Better Place – Egoistic Altruism</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="cZYNADOHhVY">
                 <div class="play-button"></div>
@@ -293,7 +309,7 @@
               <h6 class="card-title">The Fable of the Dragon-Tyrant</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="psaCM1j9LEM">
                 <div class="play-button"></div>
@@ -303,7 +319,7 @@
               <h6 class="card-title">Meaning is a Jumper That You Have to Knit Yourself</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="YFHHGETsxkE">
                 <div class="play-button"></div>
@@ -314,7 +330,7 @@
               <p class="card-text">Short film based on the award winning game by Lucas Pope.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="yqc9zX04DXs">
                 <div class="play-button"></div>
@@ -324,7 +340,7 @@
               <h6 class="card-title">The history of our world in 18 minutes | David Christian</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video science-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="qE0UimODxNg">
                 <div class="play-button"></div>
@@ -334,7 +350,7 @@
               <h6 class="card-title">10,000 More Years of the Scientific Method</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="HoLhcdapmqg">
                 <div class="play-button"></div>
@@ -345,7 +361,7 @@
               <p class="card-text">A very therapeutic video essay to watch.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="W_UQ5RI38Qc"></div>
             </div>
@@ -354,7 +370,7 @@
               <p class="card-text">Video essay about my favorite show.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
               <div class="card-img-top">
                 <div class="youtube" data-embed="uiGQGmnMt0I"></div>
               </div>
@@ -363,7 +379,7 @@
               <p class="card-text">Legend of Korra is often overlooked because its overall story is not as compelling as ATLA, but this video highlights its strengths well.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="z18LY6NME1s">
                 <div class="play-button"></div>
@@ -373,7 +389,7 @@
               <h6 class="card-title">Arrival: A Response To Bad Movies</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video technology-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="FF-tKLISfPE">
                 <div class="play-button"></div>
@@ -381,9 +397,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Steve Jobs Insult Response</h6>
+              <p class="card-text">The design philosophy that brought us the iPhone.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video politics-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="efnHiz0USQE">
                 <div class="play-button"></div>
@@ -393,7 +410,7 @@
               <h6 class="card-title">Living in extreme poverty</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video science-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="Gt2zubHcER4">
                 <div class="play-button"></div>
@@ -403,15 +420,17 @@
               <h6 class="card-title">Bernstein, The greatest 5 min. in music education</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item philosophy-video technology-video">
             <div class="card-img-top">
-              <div class="youtube" data-embed="m6JTaRNTN0c"></div>
+              <div class="youtube" data-embed="m6JTaRNTN0c">
+                <div class="play-button"></div>
+              </div>
             </div>
             <div class="card-body">
               <h6 class="card-title">The Death of Facebook | How Social Media Ripped Apart a Generation</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item politics-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="Zh3Yz3PiXZw">
                 <div class="play-button"></div>
@@ -421,7 +440,7 @@
               <h6 class="card-title">Alternative Math | Short Film</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item art-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="KUtMsDq0ZL0">
                 <div class="play-button"></div>
@@ -431,7 +450,7 @@
               <h6 class="card-title">Musical Evolution in the Civilization VI Soundtrack</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="ZrVVvXOIwQc">
                 <div class="play-button"></div>
@@ -441,7 +460,7 @@
               <h6 class="card-title">Professor Stephen Hawking 1942 - 2018</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item technology-video politics-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="WSKi8HfcxEk">
                 <div class="play-button"></div>
@@ -451,7 +470,7 @@
               <h6 class="card-title">The Rise of the Machines – Why Automation is Different this Time</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item politics-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="kl39KHS07Xc">
                 <div class="play-button"></div>
@@ -461,7 +480,7 @@
               <h6 class="card-title">Universal Basic Income Explained – Free Money for Everybody? UBI</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item politics-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="I47Y6VHc3Ms"></div>
             </div>
@@ -469,7 +488,7 @@
               <h6 class="card-title">Martin Luther King | "I Have A Dream" Speech</h6>
             </div>
           </div>
-          <div class="card">
+          <div class="card media-item science-video philosophy-video">
             <div class="card-img-top">
               <div class="youtube" data-embed="MO0r930Sn_8">
                 <div class="play-button"></div>
@@ -477,6 +496,100 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Richard Feynman Magnets</h6>
+              <p class="card-text">Richard Feynman was one of the greatest physicists of the last century, and perhaps his most important contributions were in education. In this video, he explains what it means to ask, "Why?"</p>
+            </div>
+          </div>
+          <div class="card media-item art-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="3hZ_ZyzCO24">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Harry Potter & The Prisoner of Azkaban: Why It's The Best</h6>
+            </div>
+          </div>
+          <div class="card media-item art-video philosophy-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="PmG1NgFTUR8">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Avatar: The Last Airbender - The Cycle of War [ video essay ]</h6>
+            </div>
+          </div>
+          <div class="card media-item philosophy-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="MBRqu0YOH14">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Optimistic Nihilism</h6>
+            </div>
+          </div>
+          <div class="card media-item humor-video religion-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="8r-e2NDSTuE">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">George Carlin --- Religion is Bullshit</h6>
+              <p class="card-text">God bless Joe Pesci.</p>
+            </div>
+          </div>
+          <div class="card media-item religion-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="BRHefbIgKxk">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Neil Tyson tired of God</h6>
+              <p class="card-text">This video's title is somewhat misleading. In it, Neil discusses the "God of the gaps" phenomenon, and defends the separation of church and state.</p>
+            </div>
+          </div>
+          <div class="card media-item religion-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="JXEiKPxCSdA">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">"If you want to be awe inspired.." (Christopher Hitchens)</h6>
+            </div>
+          </div>
+          <div class="card media-item religion-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="-pmArHBW9ns">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Greatest Anti-Religion speech? Christopher Hitchens</h6>
+              <p class="card-title">Hitchens' opening statement from a 2010 debate with former British prime minister Tony Blair on the motion, "Religion is a force for good in the world." Something most remarkable about this speech is that it was delivered as he was literally dying of cancer (and would lose the battle a year later).</p>
+            </div>
+          </div>
+          <div class="card media-item religion-video philosophy-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="-j8L7p-76cU">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Sam Harris - Faith vs Reason in the Modern World</h6>
+            </div>
+          </div>
+          <div class="card media-item technology-video philosophy-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="PUv66718DII">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Bret Victor - Inventing on Principle</h6>
             </div>
           </div>
         </div>
@@ -506,7 +619,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <p>In college, my capstone course was called "Senior Design". Besides working on our projects, the students' weekly assignment was to watch or read some material listed by the professor. These were called the "design gems" – they contained powerful, critical ideas relevant to engineering. This website offers "life gems". To put it less dramatically, here you can find content that is valuable to me. Enjoy!</p>
+            <p>In college, my capstone course was called "Senior Design". Besides working on our projects, the students' weekly assignment was to watch or read some material listed by the professor. These were called the "design gems" for the powerful, critical ideas they contained. This website offers "life gems" – content I find valuable and want to share with others. I hope you derive some truth or joy from these videos, songs, quotes,and more.</p>
             <p>- Richard H. Preston</p>
           </div>
         </div>

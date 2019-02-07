@@ -6,8 +6,17 @@ $('#start').click(function () {
 
 // content selector
 $('input[name="mediaOptions"]').change(function () {
+  const option = $(this).attr('value')
   $('.media-container').addClass('d-none')
-  $('#' + $(this).attr('value')).addClass('fade-in-f').removeClass('d-none')
+  $('.media-dropdown').addClass('d-none')
+  $('#' + option).addClass('fade-in-f').removeClass('d-none')
+  $('#' + option + 'Dropdown').addClass('fade-in-f').removeClass('d-none')
+})
+
+// media filter
+$('.dropdown-item').click(function () {
+  $('.media-item').addClass('d-none')
+  $('.' + $(this).data('filter')).addClass('fade-in-f').removeClass('d-none')
 })
 
 // YouTube videos
