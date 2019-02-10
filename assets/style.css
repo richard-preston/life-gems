@@ -29,12 +29,12 @@ a:focus {
 }
 
 .media-container {
-  z-index: -1 !important;
+  z-index: -1;
   overflow: auto;
 }
 
 .card {
-  border: none !important;
+  border: none;
 }
 
 @supports (animation: fadeInBlur) {
@@ -125,4 +125,13 @@ a:focus {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+/* Automatic sizing does not work as expected for some elements on Chrome */
+#header {
+  min-height: 51px;
+}
+
+#media {
+  min-height: 54px;
 }
