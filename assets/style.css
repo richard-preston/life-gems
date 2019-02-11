@@ -37,6 +37,11 @@ a:focus {
   border: none;
 }
 
+.music-frame {
+  height: 80px;
+  width: 100%;
+}
+
 @supports (animation: fadeInBlur) {
   .fade-in-s {
     opacity: 0;

@@ -15,8 +15,11 @@ $('input[name="mediaOptions"]').change(function () {
 
 // media filter
 $('.dropdown-item').click(function () {
-  $('.media-item').addClass('d-none')
-  $('.' + $(this).data('filter')).addClass('fade-in-f').removeClass('d-none')
+  const item = $(this)
+  item.siblings().each(function () {
+    $('.' + $(this).data('filter')).addClass('d-none')
+  })
+  $('.' + item.data('filter')).addClass('fade-in-f').removeClass('d-none')
 })
 
 // YouTube videos
