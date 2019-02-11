@@ -7,3 +7,5 @@ Personal website with content of lifelong value.
 * Lazy-load Spotify embeds
 * Move notes to hover icon
 * Add film/tv tab
+* Load smaller-size background image depending on window size
+* Add favicon
