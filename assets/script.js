@@ -1,3 +1,8 @@
+const YOUTUBE_IMG = 'https://img.youtube.com/vi/'
+const YOUTUBE_EMBED = 'https://www.youtube-nocookie.com/embed/'
+const SPOTIFY_IMG = 'https://open.spotify.com/oembed?url=spotify:track:'
+const SPOTIFY_EMBED = 'https://open.spotify.com/embed/track/'
+
 // start button
 $('#start').click(function () {
   $(this).addClass('d-none')
@@ -40,7 +45,7 @@ $('.youtube').each(function () {
     parent = link
   }
   const img = $('<img />')
-    .attr('src',  'https://img.youtube.com/vi/' + div.data('embed') + '/hqdefault.jpg')
+    .attr('src',  YOUTUBE_IMG + div.data('embed') + '/hqdefault.jpg')
     .on('load', function () {
       parent.append(img)
     })
@@ -51,8 +56,24 @@ $('.youtube').each(function () {
       .attr('frameborder', '0')
       .attr('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
       .attr('allowfullscreen', '')
-      .attr('src', 'https://www.youtube-nocookie.com/embed/' + div.data('embed') + '?autoplay=1')
+      .attr('src', YOUTUBE_EMBED + div.data('embed') + '?autoplay=1')
     div.empty()
     div.append(iframe)
   }
+})
+
+// Spotify songs
+$('.spotify').click(function () {
+  const div = $(this)
+  if (!div.data('embed')) {
+    return
+  }
+  console.log('loading iframe')
+  const iframe = $('<iframe />')
+    .attr('frameborder', '0')
+    .attr('allowtransparency', 'true')
+    .attr('allow', 'encrypted-media')
+    .attr('src', SPOTIFY_EMBED + div.data('embed'))
+  div.empty()
+  div.append(iframe)
 })

@@ -37,11 +37,6 @@ a:focus {
   border: none;
 }
 
-.music-frame {
-  height: 80px;
-  width: 100%;
-}
-
 @supports (animation: fadeInBlur) {
   .fade-in-s {
     opacity: 0;
@@ -83,7 +78,6 @@ a:focus {
   position: relative;
   padding-top: 56.25%;
   overflow: hidden;
-  cursor: pointer;
 }
 .youtube img {
   width: 100%;
@@ -92,13 +86,13 @@ a:focus {
   opacity: 0.7;
 }
 .youtube .play-button {
-  width: 60px;
+  width: 40px;
   height: 40px;
   background-color: #333;
   box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
   z-index: 1;
-  opacity: 0.8;
-  border-radius: 6px;
+  opacity: 0.7;
+  border-radius: 20px;
 }
 .youtube:hover .play-button {
   opacity: 0.9;
@@ -130,6 +124,75 @@ a:focus {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+/* Spotify */
+.spotify {
+  height: 80px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  padding-left: 85px;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spotify img {
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.spotify iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.spotify .play-button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba( 0,0,0,0.6 );
+  z-index: 1;
+  opacity: 0.7;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  top: 20px;
+  left: 20px;
+}
+.spotify:hover .play-button {
+  opacity: 0.9;
+}
+.spotify .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 13.0px;
+  border-color: transparent transparent transparent #000;
+  top: 32%;
+  left: 35%;
+}
+.spotify,
+.spotify img,
+.spotify .play-button {
+  cursor: pointer;
+}
+.spotify img,
+.spotify iframe,
+.spotify .play-button,
+.spotify .play-button:before {
+  position: absolute
+}
+.spotify h6 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.spotify p {
+  margin-top: 0px;
+  margin-bottom: 2px;
 }
 
 /* Automatic sizing does not work as expected for some elements on Chrome */
