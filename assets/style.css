@@ -8,10 +8,6 @@ a:focus {
 }
 
 .bg {
-  /* The image used */
-  /* TODO: use low-res version for small screens */
-  background-image: url("luke-stackpoole-578017-unsplash.jpg");
-
   /* Full height */
   min-height: 100%;
   max-height: 100%;
@@ -22,9 +18,39 @@ a:focus {
   background-size: cover;
 }
 
-@media (max-height: 600px) {
+@media (max-width: 575.98px) {
   .bg {
-    max-height: 600px
+    background-image: url('576.jpeg');
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bg {
+    background-image: url('768.jpeg');
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bg {
+    background-image: url('992.jpeg');
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bg {
+    background-image: url('1200.jpeg');
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg {
+    background-image: url('full.jpg');
+  }
+}
+
+@media (max-height: 576px) {
+  .bg {
+    max-height: 576px
   }
 }
 
