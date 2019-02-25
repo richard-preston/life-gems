@@ -79,29 +79,14 @@ a:focus {
   border: none;
 }
 
-@supports (animation: fadeInBlur) {
-  .fade-in-s {
-    opacity: 0;
-    filter: blur(2px);
-    animation: fadeInBlur 2s ease-in 0.5s 1 forwards;
-  }
-}
-
 @supports (animation: fadeIn) {
   .fade-in-f {
     opacity: 0;
     animation: fadeIn 0.4s ease-out 0.2s 1 forwards;
   }
-}
-
-@keyframes fadeInBlur{
-  from {
+  .fade-in-s {
     opacity: 0;
-    filter: blur(2px);
-  }
-  to {
-    opacity: 1;
-    filter: none;
+    animation: fadeIn 2s ease-in 1s 1 forwards;
   }
 }
 
