@@ -11,6 +11,10 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="assets/style.css">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+
     <title>Life Gems</title>
   </head>
   <body>
@@ -58,12 +62,10 @@
           <input type="radio" name="mediaOptions" value="word">
           Word
         </label>
-        <!--
         <label class="btn btn-outline-light">
           <input type="radio" name="mediaOptions" value="film_tv">
           Film & TV
         </label>
-        -->
       </div>
 
       <!-- Video -->
@@ -595,6 +597,16 @@
               <h6 class="card-title">Bret Victor - Inventing on Principle</h6>
             </div>
           </div>
+          <div class="card science-video">
+            <div class="card-img-top">
+              <div class="youtube" data-embed="wfYbgdo8e-8">
+                <div class="play-button"></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">You Are Two</h6>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -618,11 +630,11 @@
           <a class="dropdown-item" data-filter="soundtrack-music" href="#">Soundtrack</a>
           <a class="dropdown-item" data-filter="classical-music" href="#">Classical</a>
         </div>
+        <span class="badge badge-pill badge-light mx-2" data-toggle="tooltip" data-placement="right" title="This page uses Spotify embeds, so you need to be logged into a Spotify Premium account to play the full songs.">i</span>
       </div>
 
       <!-- Content -->
       <div id="music" class="container media-container d-none">
-        <p class="text-center">Note: You need to be logged into a Spotify Premium account to play the full songs.</p>
         <div class="card-columns small">
           <div class="spotify pop-music electronic-music" data-embed="6uBhi9gBXWjanegOb2Phh0">
             <div class="play-button"></div>
@@ -910,6 +922,11 @@
             <h6>Liebestraum No. 3</h6>
             <p>Franz Liszt</p>
           </div>
+          <div class="spotify classical-music" data-embed="3By9jCy6b4dv5XnlhvIWwx">
+            <div class="play-button"></div>
+            <h6>Dies Irae</h6>
+            <p>Giuseppe Verdi</p>
+          </div>
         </div>
       </div>
 
@@ -978,7 +995,8 @@
         </div>
       </div>
   
-      <!-- Film -->
+      <!-- Film & TV -->
+
 
       <!-- Footer -->
       <div id="footer" class="mt-auto p-2 text-center">

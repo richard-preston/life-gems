@@ -4,7 +4,7 @@ Personal website with content of lifelong value.
 
 ## Todo
 
-* Music thumbnails
-* Autoplay music
-* Move notes to hover icon
+* ~~Music thumbnails~~
+* ~~Autoplay music~~
 * Add film/tv tab
+* Automatically generate media items from JS

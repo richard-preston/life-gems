@@ -1,6 +1,5 @@
 const YOUTUBE_IMG = 'https://img.youtube.com/vi/'
 const YOUTUBE_EMBED = 'https://www.youtube-nocookie.com/embed/'
-const SPOTIFY_IMG = 'https://open.spotify.com/oembed?url=spotify:track:'
 const SPOTIFY_EMBED = 'https://open.spotify.com/embed/track/'
 
 // start button
@@ -68,7 +67,6 @@ $('.spotify').click(function () {
   if (!div.data('embed')) {
     return
   }
-  console.log('loading iframe')
   const iframe = $('<iframe />')
     .attr('frameborder', '0')
     .attr('allowtransparency', 'true')
@@ -77,3 +75,6 @@ $('.spotify').click(function () {
   div.empty()
   div.append(iframe)
 })
+
+// Enable tooltips
+$('[data-toggle="tooltip"]').tooltip()
