@@ -20,31 +20,31 @@ a:focus {
 
 @media (max-width: 575.98px) {
   .bg {
-    background-image: url('576.jpeg');
+    background-image: url('images/background-576.jpeg');
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .bg {
-    background-image: url('768.jpeg');
+    background-image: url('images/background-768.jpeg');
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .bg {
-    background-image: url('992.jpeg');
+    background-image: url('images/background-992.jpeg');
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .bg {
-    background-image: url('1200.jpeg');
+    background-image: url('images/background-1200.jpeg');
   }
 }
 
 @media (min-width: 1200px) {
   .bg {
-    background-image: url('full.jpg');
+    background-image: url('images/background-4096.jpeg');
   }
 }
 
@@ -77,6 +77,10 @@ a:focus {
 
 .card {
   border: none;
+}
+
+.btn {
+  cursor: pointer;
 }
 
 @supports (animation: fadeIn) {
@@ -229,4 +233,14 @@ a:focus {
 
 #media {
   min-height: 54px;
+}
+
+.netflix {
+  content: url('images/netflix.png');
+  height: 30px;
+}
+
+.amazon {
+  content: url('images/amazon.png');
+  height: 30px;
 }
