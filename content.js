@@ -1,4 +1,4 @@
-{
+const content = {
   "video":
   [
     {
@@ -209,7 +209,8 @@
     {
       "title": "Martin Luther King | \"I Have A Dream\" Speech",
       "youtube": "I47Y6VHc3Ms",
-      "tags": ["politics"]
+      "tags": ["politics"],
+      "no_embed": true
     },
     {
       "title": "Richard Feynman Magnets",

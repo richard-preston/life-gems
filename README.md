@@ -8,3 +8,4 @@ Personal website with content of lifelong value.
 * ~~Autoplay music~~
 * Add film/tv tab
 * Automatically generate media items from JS
+* Automatically scroll to top of containers
