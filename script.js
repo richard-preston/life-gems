@@ -84,8 +84,8 @@ function generateVideos(videos) {
 
 function generateSpotify(song) {
   const spotify =  $('<div class="spotify" />')
-  spotify.append($('<div class="play-button" />'))
-  spotify.append($('<h6>' + song.title + '</h6>'))
+    .append($('<div class="play-button" />'))
+    .append($('<h6>' + song.title + '</h6>'))
   if (song.caption) {
     spotify.append($('<p class="small"><i>' + song.caption + '</i></p>'))
   }
@@ -125,6 +125,32 @@ function generateMusic(music) {
   }
 }
 
+function generateWord(word) {
+  const wordContainer = $('#word')
+  const indices = getRandomIndices(word.length)
+  for (let i = 0; i < word.length; i++) {
+    const item = word[indices[i]]
+    const card = $('<div class="card my-3" />')
+    if (item.img) {
+      const img = $('<img class="card-img" />')
+        .attr('src', item.img)
+        .attr('alt', item.alt)
+      card.append(img)
+    } else if (item.quote) {
+      const blockquote = $('<blockquote class="blockquote card-body" />')
+        .append($('<p>' + item.quote + '</p>'))
+        .append(
+          $('<footer class="blockquote-footer">' + item.author + '</footer>')
+        )
+      card.append(blockquote)
+    } else {
+      console.error('Failed to generate word item ' + word)
+      continue
+    }
+    wordContainer.append(card)
+  }
+}
+
 // start button
 $('#start').click(function () {
   $(this).addClass('d-none')
@@ -155,23 +181,10 @@ $('.dropdown-item').click(function () {
   }
 })
 
-// Spotify songs
-$('.spotify').click(function () {
-  const div = $(this)
-  if (!div.data('embed')) {
-    return
-  }
-  const iframe = $('<iframe />')
-    .attr('frameborder', '0')
-    .attr('allowtransparency', 'true')
-    .attr('allow', 'encrypted-media')
-    .attr('src', SPOTIFY_EMBED + div.data('embed'))
-  div.empty()
-  div.append(iframe)
-})
-
-// Enable tooltips
+// enable tooltips
 $('[data-toggle="tooltip"]').tooltip()
 
+// generate content
 $(generateVideos(content.video))
 $(generateMusic(content.music))
+$(generateWord(content.word))
