@@ -9,3 +9,4 @@ Personal website with content of lifelong value.
 * Add film/tv tab
 * Automatically generate media items from JS
 * Automatically scroll to top of containers
+* Automatically populate dropdown menus

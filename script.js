@@ -3,12 +3,6 @@ const YOUTUBE_LINK = 'https://youtu.be/'
 const YOUTUBE_EMBED = 'https://www.youtube-nocookie.com/embed/'
 const SPOTIFY_EMBED = 'https://open.spotify.com/embed/track/'
 
-// start button
-$('#start').click(function () {
-  $(this).addClass('d-none')
-  $('#media').addClass('fade-in-f').removeClass('d-none')
-})
-
 function getRandomIndices(N) {
   const indices = Array(N)
   for (let i = 0; i < N; i++) {
@@ -24,7 +18,7 @@ function getRandomIndices(N) {
   return indices
 }
 
-function getYoutube(video) {
+function generateYoutube(video) {
   const youtube = $('<div class="youtube" />')
   const img = $('<img />')
     .attr('src',  YOUTUBE_IMG + video.youtube + '/hqdefault.jpg')
@@ -34,7 +28,6 @@ function getYoutube(video) {
       .attr('target', '_blank')
     youtube.append(link)
     img.on('load', function () {
-      console.log(img)
       link.append(img)
     })
   } else {
@@ -56,33 +49,87 @@ function getYoutube(video) {
   return youtube
 }
 
+function generateVideo(video)  {
+  const card = $('<div class="card" />')
+  const cardImg = $('<div class="card-img-top" />')
+  cardImg.append(generateYoutube(video))
+  card.append(cardImg)
+  const cardBody = $('<div class="card-body" />')
+  const cardTitle = $('<h6 class="card-title" />')
+    .text(video.title)
+  cardBody.append(cardTitle)
+  if (video.caption) {
+    cardText = $('<div class="card-text" />')
+      .text(video.caption)
+    cardBody.append(cardText)
+  }
+  card.append(cardBody)
+  return card
+}
+
 function generateVideos(videos) {
   const videoContainer = $('#video')
-  const cardColumns = $('<div class="card-columns small" />')
+  const cardColumns = $('<div class="card-columns" />')
   videoContainer.append(cardColumns)
   const indices = getRandomIndices(videos.length)
   for (let i = 0; i < videos.length; i++) {
     const video = videos[indices[i]]
-    const card = $('<div class="card" />')
+    const card = generateVideo(video)
     for (tag of video.tags) {
-      card.addClass(tag + "-video")
+      card.addClass(tag + '-video')
     }
-    const cardImg = $('<div class="card-img-top" />')
-    cardImg.append(getYoutube(video))
-    card.append(cardImg)
-    const cardBody = $('<div class="card-body" />')
-    const cardTitle = $('<h6 class="card-title" />')
-      .text(video.title)
-    cardBody.append(cardTitle)
-    if (video.caption) {
-      cardText = $('<div class="card-text" />')
-        .text(video.caption)
-      cardBody.append(cardText)
-    }
-    card.append(cardBody)
     cardColumns.append(card)
   }
 }
+
+function generateSpotify(song) {
+  const spotify =  $('<div class="spotify" />')
+  spotify.append($('<div class="play-button" />'))
+  spotify.append($('<h6>' + song.title + '</h6>'))
+  if (song.caption) {
+    spotify.append($('<p class="small"><i>' + song.caption + '</i></p>'))
+  }
+  spotify.append($('<p>' + song.artist + '</p>'))
+  spotify.click(function () {
+    const iframe = $('<iframe />')
+      .attr('frameborder', '0')
+      .attr('allowtransparency', 'true')
+      .attr('allow', 'encrypted-media')
+      .attr('src', SPOTIFY_EMBED + song.spotify)
+    spotify.empty()
+    spotify.append(iframe)
+  })
+  return spotify
+}
+
+function generateMusic(music) {
+  const musicContainer = $('#music')
+  const cardColumns = $('<div class="card-columns" />')
+  musicContainer.append(cardColumns)
+  const indices = getRandomIndices(music.length)
+  for (let i = 0; i < music.length; i++) {
+    const song = music[indices[i]]
+    let card
+    if (song.spotify) {
+      card = generateSpotify(song)
+    } else if (song.youtube) {
+      card = generateVideo(song)
+    } else {
+      console.error('Failed to generate song ' + song)
+      continue
+    }
+    for (tag of song.tags) {
+      card.addClass(tag + '-music')
+    }
+    cardColumns.append(card)
+  }
+}
+
+// start button
+$('#start').click(function () {
+  $(this).addClass('d-none')
+  $('#media').addClass('fade-in-f').removeClass('d-none')
+})
 
 // content selector
 $('input[name="mediaOptions"]').change(function () {
@@ -108,35 +155,6 @@ $('.dropdown-item').click(function () {
   }
 })
 
-// YouTube videos
-$('.youtube').each(function () {
-  const div = $(this)
-  let parent = div
-  if (div.find('div.play-button').length == 0) {
-    const link = $('<a />')
-      .attr('href', 'https://youtu.be/' + div.data('embed'))
-      .attr('target', '_blank')
-    div.append(link)
-    parent = link
-  }
-  const img = $('<img />')
-    .attr('src',  YOUTUBE_IMG + div.data('embed') + '/hqdefault.jpg')
-    .on('load', function () {
-      parent.append(img)
-    })
-}).click(function () {
-  const div = $(this)
-  if (div.find('div.play-button').length > 0) {
-    const iframe = $('<iframe />')
-      .attr('frameborder', '0')
-      .attr('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
-      .attr('allowfullscreen', '')
-      .attr('src', YOUTUBE_EMBED + div.data('embed') + '?autoplay=1')
-    div.empty()
-    div.append(iframe)
-  }
-})
-
 // Spotify songs
 $('.spotify').click(function () {
   const div = $(this)
@@ -156,3 +174,4 @@ $('.spotify').click(function () {
 $('[data-toggle="tooltip"]').tooltip()
 
 $(generateVideos(content.video))
+$(generateMusic(content.music))

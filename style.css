@@ -79,6 +79,10 @@ a:focus {
   border: none;
 }
 
+.card-columns {
+  font-size: small
+}
+
 .btn {
   cursor: pointer;
 }
