@@ -2,6 +2,10 @@ const YOUTUBE_IMG = 'https://img.youtube.com/vi/'
 const YOUTUBE_LINK = 'https://youtu.be/'
 const YOUTUBE_EMBED = 'https://www.youtube-nocookie.com/embed/'
 const SPOTIFY_EMBED = 'https://open.spotify.com/embed/track/'
+const NETFLIX_LINK = "https://www.netflix.com/title/"
+const AMAZON_LINK = "https://www.amazon.com/dp/"
+const HULU_LINK = "https://www.hulu.com/"
+const HBO_LINK = "https://play.hbonow.com/"
 
 function getRandomIndices(N) {
   const indices = Array(N)
@@ -151,6 +155,49 @@ function generateWord(word) {
   }
 }
 
+function generateCinema(cinema) {
+  const cinemaContainer = $('#cinema')
+  const cardColumns = $('<div class="card-columns" />')
+  cinemaContainer.append(cardColumns)
+  const indices = getRandomIndices(cinema.length)
+  for (let i = 0; i < cinema.length; i++) {
+    const item = cinema[indices[i]]
+    const card = $('<div class="card" />')
+    const cardImg = $('<img class="card-img-top" />')
+      .attr('src', item.img)
+      .attr('alt', item.title)
+    card.append(cardImg)
+    const cardFooter = $('<div class="card-footer" />')
+    if (item.netflix) {
+      const netflix = $('<a class="netflix" target="_blank" />')
+        .attr('href', NETFLIX_LINK + item.netflix)
+      cardFooter.append(netflix)
+    }
+    if (item.hulu) {
+      const hulu = $('<a class="hulu" target="_blank" />')
+        .attr('href', HULU_LINK + item.hulu)
+      cardFooter.append(hulu)
+    }
+    if (item.hbo) {
+      const hbo = $('<a class="hbo" target="_blank" />')
+        .attr('href', HBO_LINK + item.hbo)
+      cardFooter.append(hbo)
+    }
+    if (item.amazon) {
+      const amazon = $('<a class="amazon" target="_blank" />')
+        .attr('href', AMAZON_LINK + item.amazon)
+      cardFooter.append(amazon)
+    }
+    if (item.youtube) {
+      const youtube = $('<a class="youtube_logo" target="_blank" />')
+        .attr('href', YOUTUBE_LINK + item.youtube)
+      cardFooter.append(youtube)
+    }
+    card.append(cardFooter)
+    cardColumns.append(card)
+  }
+}
+
 // start button
 $('#start').click(function () {
   $(this).addClass('d-none')
@@ -188,3 +235,4 @@ $('[data-toggle="tooltip"]').tooltip()
 $(generateVideos(content.video))
 $(generateMusic(content.music))
 $(generateWord(content.word))
+$(generateCinema(content.cinema))

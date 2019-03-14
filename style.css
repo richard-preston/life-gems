@@ -241,10 +241,33 @@ a:focus {
 
 .netflix {
   content: url('images/netflix.png');
-  height: 30px;
 }
 
 .amazon {
   content: url('images/amazon.png');
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.hulu {
+  content: url('images/hulu.png');
+}
+
+.hbo {
+  content: url('images/hbo.png');
+  padding: 6px;
+  padding-bottom: 8px;
+}
+
+.youtube_logo {
+  content: url('images/youtube.png');
+  padding: 6px;
+}
+
+.netflix,
+.amazon,
+.hulu,
+.hbo,
+.youtube_logo {
   height: 30px;
 }

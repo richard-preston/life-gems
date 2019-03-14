@@ -659,5 +659,78 @@ const content = {
       "quote": "When a measure becomes a target, it ceases to be a good measure.",
       "author": "Charles Goodhart"
     }
+  ],
+  "cinema":
+  [
+    {
+      "title": "The Truman Show",
+      "img": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX674_AL_.jpg",
+      "netflix": "11819086",
+      "amazon": "B002SGYPS2",
+      "youtube": "Q9UsEbi1Xks"
+    },
+    {
+      "title": "The Usual Suspects",
+      "img": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
+      "amazon": "B0088T3B0G",
+      "youtube": "tjwXBkooYaI"
+    },
+    {
+      "title": "Arrival",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg",
+      "hulu": "movie/arrival-6ec67b11-b282-4383-85ac-38c4731b40e4",
+      "amazon": "B01M2C4NP8",
+      "youtube": "SUiavMWW5Vo"
+    },
+    {
+      "title": "Inception",
+      "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "hbo": "feature/urn:hbo:feature:GW88s7w2y8aGJwgEAAAHe",
+      "amazon": "B0047WJ11G",
+      "youtube": "E1iqGiX0lSg"
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "img": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "youtube": "RLw6hBFJ8bk"
+    },
+    {
+      "title": "Saving Private Ryan",
+      "img": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,679,1000_AL_.jpg",
+      "amazon": "B008CBZX7E",
+      "youtube": "pddSegN5dLg"
+    },
+    {
+      "title": "The Big Lebowski",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
+      "amazon": "B002KEZ96Y",
+      "youtube": "tgKhPObZeaw"
+    },
+    {
+      "title": "WALL·E",
+      "img": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "amazon": "B003QTSMXE",
+      "youtube": "5RcNwlq7JSw"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "img": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
+      "netflix": "14546747",
+      "amazon": "B002CMV1N4",
+      "youtube": "ayA38BR2OTE"
+    },
+    {
+      "title": "Office Space",
+      "img": "https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "hulu": "movie/office-space-d38591ec-d8ec-45d7-8b39-cfd07b860a8d",
+      "amazon": "B0093CNAJY",
+      "youtube": "lUrCHAa9JQc"
+    },
+    {
+      "title": "The Departed",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
+      "netflix": "70044689",
+      "youtube": "loJGSgb9PUE"
+    }
   ]
 }

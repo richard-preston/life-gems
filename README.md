@@ -6,7 +6,6 @@ Personal website with content of lifelong value.
 
 * ~~Music thumbnails~~
 * ~~Autoplay music~~
-* Add film/tv tab
-* Automatically generate media items from JS
 * Automatically scroll to top of containers
 * Automatically populate dropdown menus
+* Change as many Spotify embeds to YouTube as possible
