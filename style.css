@@ -1,0 +1,273 @@
+body, html {
+  height: 100%;
+  background: black
+}
+
+a:focus {
+  outline: none;
+}
+
+.bg {
+  /* Full height */
+  min-height: 100%;
+  max-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 575.98px) {
+  .bg {
+    background-image: url('images/background-576.jpeg');
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bg {
+    background-image: url('images/background-768.jpeg');
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bg {
+    background-image: url('images/background-992.jpeg');
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bg {
+    background-image: url('images/background-1200.jpeg');
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg {
+    background-image: url('images/background-4096.jpeg');
+  }
+}
+
+@media (max-height: 576px) {
+  .bg {
+    max-height: 576px
+  }
+}
+
+@media (min-width: 34em) {
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 62em) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+.media-container {
+  z-index: -1;
+  overflow: auto;
+}
+
+.card {
+  border: none;
+}
+
+.card-columns {
+  font-size: small
+}
+
+.btn {
+  cursor: pointer;
+}
+
+@supports (animation: fadeIn) {
+  .fade-in-f {
+    opacity: 0;
+    animation: fadeIn 0.4s ease-out 0.2s 1 forwards;
+  }
+  .fade-in-s {
+    opacity: 0;
+    animation: fadeIn 2s ease-in 1s 1 forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743 */
+.youtube {
+  background-color: #000;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+.youtube img {
+  width: 100%;
+  top: -16.84%;
+  left: 0;
+  opacity: 0.7;
+}
+.youtube .play-button {
+  width: 60px;
+  height: 45px;
+  background-color: #333;
+  box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+  z-index: 1;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.youtube:hover .play-button {
+  opacity: 0.9;
+}
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 13.0px;
+  border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+  cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+  position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Spotify */
+.spotify {
+  height: 80px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  padding-left: 85px;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spotify img {
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.spotify iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.spotify .play-button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba( 0,0,0,0.6 );
+  z-index: 1;
+  opacity: 0.7;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  top: 20px;
+  left: 20px;
+}
+.spotify:hover .play-button {
+  opacity: 0.9;
+}
+.spotify .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 13.0px;
+  border-color: transparent transparent transparent #000;
+  top: 32%;
+  left: 35%;
+}
+.spotify,
+.spotify img,
+.spotify .play-button {
+  cursor: pointer;
+}
+.spotify img,
+.spotify iframe,
+.spotify .play-button,
+.spotify .play-button:before {
+  position: absolute
+}
+.spotify h6 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.spotify p {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+/* Automatic sizing does not work as expected for some elements on Chrome */
+#header {
+  min-height: 51px;
+}
+
+#media {
+  min-height: 54px;
+}
+
+.netflix {
+  content: url('images/netflix.png');
+}
+
+.amazon {
+  content: url('images/amazon.png');
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.hulu {
+  content: url('images/hulu.png');
+}
+
+.hbo {
+  content: url('images/hbo.png');
+  padding: 6px;
+  padding-bottom: 8px;
+}
+
+.youtube_logo {
+  content: url('images/youtube.png');
+  padding: 6px;
+}
+
+.netflix,
+.amazon,
+.hulu,
+.hbo,
+.youtube_logo {
+  height: 30px;
+}

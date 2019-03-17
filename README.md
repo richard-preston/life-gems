@@ -4,8 +4,8 @@ Personal website with content of lifelong value.
 
 ## Todo
 
-* Lazy-load Spotify embeds
-* Move notes to hover icon
-* Add film/tv tab
-* Load smaller-size background image depending on window size
-* Add favicon
+* ~~Music thumbnails~~
+* ~~Autoplay music~~
+* Automatically scroll to top of containers
+* Automatically populate dropdown menus
+* Change as many Spotify embeds to YouTube as possible
