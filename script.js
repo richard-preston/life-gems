@@ -6,6 +6,7 @@ const NETFLIX_LINK = "https://www.netflix.com/title/"
 const AMAZON_LINK = "https://www.amazon.com/dp/"
 const HULU_LINK = "https://www.hulu.com/"
 const HBO_LINK = "https://play.hbonow.com/"
+const POSTER_IMG = "https://m.media-amazon.com/images/M/"
 
 function getRandomIndices(N) {
   const indices = Array(N)
@@ -87,6 +88,7 @@ function generateVideos(videos) {
 }
 
 function generateSpotify(song) {
+  const card = $('<div class="card" />')
   const spotify =  $('<div class="spotify" />')
     .append($('<div class="play-button" />'))
     .append($('<h6>' + song.title + '</h6>'))
@@ -103,7 +105,8 @@ function generateSpotify(song) {
     spotify.empty()
     spotify.append(iframe)
   })
-  return spotify
+  card.append(spotify)
+  return card
 }
 
 function generateMusic(music) {
@@ -164,33 +167,38 @@ function generateCinema(cinema) {
     const item = cinema[indices[i]]
     const card = $('<div class="card" />')
     const cardImg = $('<img class="card-img-top" />')
-      .attr('src', item.img)
+      .attr('src', POSTER_IMG + item.img)
       .attr('alt', item.title)
     card.append(cardImg)
     const cardFooter = $('<div class="card-footer" />')
     if (item.netflix) {
       const netflix = $('<a class="netflix" target="_blank" />')
         .attr('href', NETFLIX_LINK + item.netflix)
+        .append($('<img src="images/netflix.png" />'))
       cardFooter.append(netflix)
     }
     if (item.hulu) {
       const hulu = $('<a class="hulu" target="_blank" />')
         .attr('href', HULU_LINK + item.hulu)
+        .append($('<img src="images/hulu.png" />'))
       cardFooter.append(hulu)
     }
     if (item.hbo) {
       const hbo = $('<a class="hbo" target="_blank" />')
         .attr('href', HBO_LINK + item.hbo)
+        .append($('<img src="images/hbo.png" />'))
       cardFooter.append(hbo)
     }
     if (item.amazon) {
       const amazon = $('<a class="amazon" target="_blank" />')
         .attr('href', AMAZON_LINK + item.amazon)
+        .append($('<img src="images/amazon.png" />'))
       cardFooter.append(amazon)
     }
     if (item.youtube) {
       const youtube = $('<a class="youtube_logo" target="_blank" />')
         .attr('href', YOUTUBE_LINK + item.youtube)
+        .append($('<img src="images/youtube.png" />'))
       cardFooter.append(youtube)
     }
     card.append(cardFooter)

@@ -71,7 +71,6 @@ a:focus {
 }
 
 .media-container {
-  z-index: -1;
   overflow: auto;
 }
 
@@ -80,11 +79,15 @@ a:focus {
 }
 
 .card-columns {
-  font-size: small
+  font-size: small;
 }
 
 .btn {
   cursor: pointer;
+}
+
+.dropdown {
+  z-index: 2;
 }
 
 @supports (animation: fadeIn) {
@@ -168,7 +171,6 @@ a:focus {
   background-color: #fff;
   position: relative;
   padding-left: 85px;
-  margin-bottom: 1rem;
   border-radius: 2px;
   display: flex;
   flex-direction: column;
@@ -239,35 +241,24 @@ a:focus {
   min-height: 54px;
 }
 
-.netflix {
-  content: url('images/netflix.png');
-}
-
-.amazon {
-  content: url('images/amazon.png');
+.amazon img {
   padding-right: 4px;
   padding-left: 4px;
 }
 
-.hulu {
-  content: url('images/hulu.png');
-}
-
-.hbo {
-  content: url('images/hbo.png');
+.hbo img {
   padding: 6px;
   padding-bottom: 8px;
 }
 
-.youtube_logo {
-  content: url('images/youtube.png');
+.youtube_logo img {
   padding: 6px;
 }
 
-.netflix,
-.amazon,
-.hulu,
-.hbo,
-.youtube_logo {
+.netflix img,
+.amazon img,
+.hulu img,
+.hbo img,
+.youtube_logo img {
   height: 30px;
 }

@@ -44,18 +44,6 @@ const content = {
       "tags": ["humor"]
     },
     {
-      "title": "Monty Python - Dead Parrot",
-      "caption": "One of the greatest comedy sketches of all time, and it still holds up almost 50 years later. It was famously referenced by Margaret Thatcher, the \"Iron Lady,\" in attempting to make fun of her political opponents.",
-      "youtube": "4vuW6tQ0218",
-      "tags": ["humor"]
-    },
-    {
-      "title": "Monty Python - Silly job interview",
-      "caption": "Lesser known Python sketch, but a personal favorite.",
-      "youtube": "-v1OLMjG52I",
-      "tags": ["humor"]
-    },
-    {
       "title": "Line Riders - Beethoven's 5th",
       "youtube": "vcBn04IyELc",
       "tags": ["art"]
@@ -224,7 +212,7 @@ const content = {
       "tags": ["art"]
     },
     {
-      "title": "Avatar: The Last Airbender - The Cycle of War [ video essay ]",
+      "title": "Avatar: The Last Airbender - The Cycle of War",
       "youtube": "PmG1NgFTUR8",
       "tags": ["art", "philosophy"]
     },
@@ -251,9 +239,9 @@ const content = {
       "tags": ["religion"]
     },
     {
-      "title": "Greatest Anti-Religion speech? Christopher Hitchens",
+      "title": "Munk Debate on Religion - Christopher Hitchens Opening Remarks",
       "caption": "Hitchens' opening statement from a 2010 debate with former British prime minister Tony Blair on the motion, \"Religion is a force for good in the world.\" Something most remarkable about this speech is that it was delivered as he was literally dying of cancer (and would lose the battle a year later).",
-      "youtube": "-pmArHBW9ns",
+      "youtube": "rYMyxa5fysI",
       "tags": ["religion"],
       "note": "It may be better to find the original and embed with the appropriate start and end times."
     },
@@ -281,6 +269,21 @@ const content = {
       "title": "One of those days 2 - Candide Thovex",
       "youtube": "yKP7jQknGjs",
       "tags": ["art"]
+    },
+    {
+      "title": "Feynman on Scientific Method.",
+      "youtube": "EYPapE-3FRw",
+      "tags": ["science"]
+    },
+    {
+      "title": "A Universe Not Made For Us (Carl Sagan on religion)",
+      "youtube": "Qfm0GCvsIVA",
+      "tags": ["science", "religion"]
+    },
+    {
+      "title": "Carl Sagan's Pale Blue Dot",
+      "youtube": "GO5FwsblpT8",
+      "tags": ["science", "philosophy"]
     }
   ],
   "music":
@@ -289,24 +292,28 @@ const content = {
       "title": "Stay",
       "artist": "Zedd, Alessia Cara",
       "spotify": "6uBhi9gBXWjanegOb2Phh0",
+      "img": "https://coverartarchive.org/release/59106be9-34e6-4c32-a8e5-24cbd4bd4d2d/16010813268-250.jpg",
       "tags": ["pop", "electronic"]
     },
     {
       "title": "Fireflies",
       "artist": "Owl City",
       "spotify": "3DamFFqW32WihKkTVlwTYQ",
+      "img": "https://coverartarchive.org/release/eea869af-007d-4e4a-a348-45bf420e2b12/2622132853-250.jpg",
       "tags": ["pop", "electronic"]
     },
     {
       "title": "Hallelujah",
       "artist": "Jeff Buckley",
       "spotify": "74X1epeRufHckhuX1KFD04",
+      "img": "https://coverartarchive.org/release/b2f862e5-a1f3-475d-85a1-6cb1160286aa/7928896921-250.jpg",
       "tags": ["folk"]
     },
     {
       "title": "Viva La Vida",
       "artist": "Coldplay",
       "spotify": "1mea3bSkSGXuIRvnydlB5b",
+      "img": "https://coverartarchive.org/release/10c38900-3f35-4a09-a9cc-5c44ee2da0ed/9239700339-250.jpg",
       "tags": ["pop"]
     },
     {
@@ -442,6 +449,19 @@ const content = {
       "artist": "Mike Posner",
       "spotify": "1MtUq6Wp1eQ8PC6BbPCj8P",
       "tags": ["electronic"]
+    },
+    {
+      "title": "Maybe I'm Amazed",
+      "artist": "Paul McCartney",
+      "spotify": "7DsaOo87BUgyNwMxD6nhC9",
+      "tags": ["rock", "pop"]
+    },
+    {
+      "title": "Shallow",
+      "caption": "A Star Is Born",
+      "artist": "Lady Gaga, Bradley Cooper",
+      "spotify": "6QfS2wq5sSC1xAJCQsTSlj",
+      "tags": ["folk", "pop"]
     },
     {
       "title": "Peace",
@@ -658,79 +678,124 @@ const content = {
     {
       "quote": "When a measure becomes a target, it ceases to be a good measure.",
       "author": "Charles Goodhart"
+    },
+    {
+      "quote": "Wise men speak because they have something to say; fools because they have to say someting.",
+      "author": "Commonly attributed to Plato"
     }
   ],
   "cinema":
   [
     {
       "title": "The Truman Show",
-      "img": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX674_AL_.jpg",
+      "img": "MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX674_AL_.jpg",
       "netflix": "11819086",
       "amazon": "B002SGYPS2",
       "youtube": "Q9UsEbi1Xks"
     },
     {
       "title": "The Usual Suspects",
-      "img": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
+      "img": "MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
       "amazon": "B0088T3B0G",
       "youtube": "tjwXBkooYaI"
     },
     {
       "title": "Arrival",
-      "img": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg",
+      "img": "MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg",
       "hulu": "movie/arrival-6ec67b11-b282-4383-85ac-38c4731b40e4",
       "amazon": "B01M2C4NP8",
       "youtube": "SUiavMWW5Vo"
     },
     {
       "title": "Inception",
-      "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "img": "MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
       "hbo": "feature/urn:hbo:feature:GW88s7w2y8aGJwgEAAAHe",
       "amazon": "B0047WJ11G",
       "youtube": "E1iqGiX0lSg"
     },
     {
       "title": "The Shawshank Redemption",
-      "img": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "img": "MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "youtube": "RLw6hBFJ8bk"
     },
     {
       "title": "Saving Private Ryan",
-      "img": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,679,1000_AL_.jpg",
+      "img": "MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,679,1000_AL_.jpg",
       "amazon": "B008CBZX7E",
       "youtube": "pddSegN5dLg"
     },
     {
       "title": "The Big Lebowski",
-      "img": "https://m.media-amazon.com/images/M/MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
+      "img": "MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_SY1000_CR0,0,670,1000_AL_.jpg",
       "amazon": "B002KEZ96Y",
       "youtube": "tgKhPObZeaw"
     },
     {
       "title": "WALL·E",
-      "img": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "img": "MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
       "amazon": "B003QTSMXE",
       "youtube": "5RcNwlq7JSw"
     },
     {
       "title": "The Silence of the Lambs",
-      "img": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
+      "img": "MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
       "netflix": "14546747",
       "amazon": "B002CMV1N4",
       "youtube": "ayA38BR2OTE"
     },
     {
       "title": "Office Space",
-      "img": "https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "img": "MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
       "hulu": "movie/office-space-d38591ec-d8ec-45d7-8b39-cfd07b860a8d",
       "amazon": "B0093CNAJY",
       "youtube": "lUrCHAa9JQc"
     },
     {
       "title": "The Departed",
-      "img": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
+      "img": "MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
       "netflix": "70044689",
       "youtube": "loJGSgb9PUE"
+    },
+    {
+      "title": "The Office",
+      "img": "MV5BMTgzNjAzMDE0NF5BMl5BanBnXkFtZTcwNTEyMzM3OA@@._V1_SY1000_CR0,0,736,1000_AL_.jpg",
+      "netflix": "70136120",
+      "amazon": "B000U7O8LA",
+      "youtube": "zKWHNFiW0_k"
+    },
+    {
+      "title": "Arrested Development",
+      "img": "MV5BNTFlYTE2YTItZmQ1NS00ZWQ5LWI3OGUtYTQzNDMyZmEyYTZjXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "netflix": "70140358",
+      "hulu": "series/arrested-development-92c225ee-2d39-4cb3-a43b-fbcffbefeeb4",
+      "amazon": "B006IWJAXM",
+      "youtube": "XQF60JSpR_s"
+    },
+    {
+      "title": "Cosmos",
+      "img": "MV5BMTc5NzgwNDE3N15BMl5BanBnXkFtZTgwNDAxMTY5MTE@._V1._CR51,41,938,1336_SY1000_CR0,0,702,1000_AL_.jpg",
+      "amazon": "B00IJL1J02",
+      "youtube": "-IvOM7j8CEw"
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "img": "MV5BNzZlZmQyYTgtOWNmMy00NTNhLTgyOTYtNjhiOTllOGU2MDg5XkEyXkFqcGdeQXVyMjYxMzY2NDk@._V1_.jpg",
+      "amazon": "B000GFD4C0",
+      "youtube": "DqblKQxzRvM"
+    },
+    {
+      "title": "Game of Thrones",
+      "img": "MV5BMjAyNjc3NTAxMV5BMl5BanBnXkFtZTgwNTEzNTM1NzM@._V1_SY1000_CR0,0,562,1000_AL_.jpg",
+      "hbo": "series/urn:hbo:series:GVU2cggagzYNJjhsJATwo",
+      "amazon": "B007BVOEPI",
+      "youtube": "vxByZAPvRJA"
+    },
+    {
+      "title": "Breaking Bad",
+      "img": "MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,718,1000_AL_.jpg",
+      "netflix": "70143836",
+      "amazon": "B003CH9PTU",
+      "youtube": "PNxGMkcus_g"
     }
   ]
 }
