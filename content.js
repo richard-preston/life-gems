@@ -266,6 +266,12 @@ const content = {
       "tags": ["art"]
     },
     {
+      "title": "The Catholic Church is a Force for Good in the World",
+      "caption": "An Intelligence Squared debate on the above motion with Stephen Fry (whom you might know from the Harry Potter audio books) and Christopher Hitchens in opposition. It cathartically represents a public trial of the Catholic institutions, at a time when justice for victims seems evasive.",
+      "youtube": "JZRcYaAYWg4",
+      "tags": ["religion", "politics"]
+    },
+    {
       "title": "One of those days 2 - Candide Thovex",
       "youtube": "yKP7jQknGjs",
       "tags": ["art"]
@@ -796,6 +802,12 @@ const content = {
       "netflix": "70143836",
       "amazon": "B003CH9PTU",
       "youtube": "PNxGMkcus_g"
+    },
+    {
+      "title": "12 Angry Men",
+      "img": "MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg",
+      "amazon": "B07JDJC19M",
+      "youtube": "J61XJhYiUpg"
     }
   ]
 }
