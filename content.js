@@ -290,6 +290,11 @@ const content = {
       "title": "Carl Sagan's Pale Blue Dot",
       "youtube": "GO5FwsblpT8",
       "tags": ["science", "philosophy"]
+    },
+    {
+      "title": "True Facts About Morgan Freeman",
+      "youtube": "Ch5MEJk5ZCQ",
+      "tags": ["humor"]
     }
   ],
   "music":
@@ -808,6 +813,19 @@ const content = {
       "img": "MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg",
       "amazon": "B07JDJC19M",
       "youtube": "J61XJhYiUpg"
+    },
+    {
+      "title": "Interstellar",
+      "img": "MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
+      "amazon": "B00VFTAXUC",
+      "youtube": "Df7IEKqimOY"
+    },
+    {
+      "title": "Good Will Hunting",
+      "img": "MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,655,1000_AL_.jpg",
+      "netflix": "17405997",
+      "amazon": "B006RXPT82",
+      "youtube": "CSZeSlTrgMA"
     }
   ]
 }
