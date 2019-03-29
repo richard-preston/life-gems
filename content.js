@@ -654,6 +654,12 @@ const content = {
       "artist": "Giuseppe Verdi",
       "spotify": "2jdeB4PjHywGvVNoMhj3Ko",
       "tags": ["classical"]
+    },
+    {
+      "title": "The Peace of Wild Things",
+      "artist": "Jake Runestad",
+      "youtube": "ObYb8EtZm78",
+      "tags": ["choir"]
     }
   ],
   "word":
