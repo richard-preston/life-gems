@@ -284,7 +284,8 @@ const content = {
     {
       "title": "A Universe Not Made For Us (Carl Sagan on religion)",
       "youtube": "Qfm0GCvsIVA",
-      "tags": ["science", "religion"]
+      "tags": ["science", "religion"],
+      "no_embed": true
     },
     {
       "title": "Carl Sagan's Pale Blue Dot",
@@ -491,7 +492,7 @@ const content = {
     },
     {
       "title": "Baba Yetu",
-      "caption": "Civilization V",
+      "caption": "Civilization IV",
       "artist": "Christopher Tin",
       "spotify": "5fYwf17qytSuyFEnBpsq5W",
       "tags": ["soundtrack"]
@@ -685,6 +686,13 @@ const content = {
       "artist": "Vince Guaraldi",
       "spotify": "0MmNrhvLcoWjo7AOr0vgka",
       "tags": ["jazz"]
+    },
+    {
+      "title": "Dawn",
+      "caption": "Pride & Prejudice",
+      "artist": "Jean-Yves Thibaudet",
+      "spotify": "0EHJOhOakEiobXo81vegdy",
+      "tags": ["soundtrack"]
     }
   ],
   "word":
