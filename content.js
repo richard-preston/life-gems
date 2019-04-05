@@ -479,6 +479,7 @@ const content = {
       "caption": "Avatar: The Last Airbender",
       "artist": "Jeremy Zuckerman",
       "youtube": "2ftScS4fLbQ",
+      "no_embed": true,
       "tags": ["soundtrack"]
     },
     {
@@ -660,6 +661,30 @@ const content = {
       "artist": "Jake Runestad",
       "youtube": "ObYb8EtZm78",
       "tags": ["choir"]
+    },
+    {
+      "title": "Take Five",
+      "artist": "Dave Brubeck",
+      "spotify": "1YQWosTIljIvxAgHWTp7KP",
+      "tags": ["jazz"]
+    },
+    {
+      "title": "The Girl From Ipanema",
+      "artist": "Stan Getz",
+      "spotify": "6n50vexd6yBNvSOc6QHT5X",
+      "tags": ["jazz"]
+    },
+    {
+      "title": "Moanin'",
+      "artist": "Art Blakey",
+      "spotify": "4Tq2fWpX1nLCkMSOPkYb1Y",
+      "tags": ["jazz"]
+    },
+    {
+      "title": "Linus And Lucy",
+      "artist": "Vince Guaraldi",
+      "spotify": "0MmNrhvLcoWjo7AOr0vgka",
+      "tags": ["jazz"]
     }
   ],
   "word":
