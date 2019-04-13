@@ -251,7 +251,8 @@ a:focus {
   padding-bottom: 8px;
 }
 
-.youtube_logo img {
+.youtube_logo img,
+.fox img {
   padding: 6px;
 }
 
@@ -259,6 +260,7 @@ a:focus {
 .amazon img,
 .hulu img,
 .hbo img,
+.fox img,
 .youtube_logo img {
   height: 30px;
 }

@@ -824,6 +824,7 @@ const content = {
     {
       "title": "Cosmos",
       "img": "MV5BMTc5NzgwNDE3N15BMl5BanBnXkFtZTgwNDAxMTY5MTE@._V1._CR51,41,938,1336_SY1000_CR0,0,702,1000_AL_.jpg",
+      "fox": "e04e798f785b19a61ac495d8ef00ac90",
       "amazon": "B00IJL1J02",
       "youtube": "-IvOM7j8CEw"
     },
@@ -865,6 +866,12 @@ const content = {
       "netflix": "17405997",
       "amazon": "B006RXPT82",
       "youtube": "CSZeSlTrgMA"
+    },
+    {
+      "title": "Mr. Robot",
+      "img": "MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "amazon": "B00YBX664Q",
+      "youtube": "6ph_m-QfoC4"
     }
   ]
 }

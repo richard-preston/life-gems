@@ -6,6 +6,7 @@ const NETFLIX_LINK = "https://www.netflix.com/title/"
 const AMAZON_LINK = "https://www.amazon.com/dp/"
 const HULU_LINK = "https://www.hulu.com/"
 const HBO_LINK = "https://play.hbonow.com/"
+const FOX_LINK = "https://www.fox.com/watch/"
 const POSTER_IMG = "https://m.media-amazon.com/images/M/"
 
 function getRandomIndices(N) {
@@ -188,6 +189,12 @@ function generateCinema(cinema) {
         .attr('href', HBO_LINK + item.hbo)
         .append($('<img src="images/hbo.png" />'))
       cardFooter.append(hbo)
+    }
+    if (item.fox) {
+      const fox = $('<a class="fox" target="_blank" />')
+        .attr('href', FOX_LINK + item.fox)
+        .append($('<img src="images/fox.png" />'))
+      cardFooter.append(fox)
     }
     if (item.amazon) {
       const amazon = $('<a class="amazon" target="_blank" />')
