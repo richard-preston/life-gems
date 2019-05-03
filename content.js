@@ -296,6 +296,11 @@ const content = {
       "title": "True Facts About Morgan Freeman",
       "youtube": "Ch5MEJk5ZCQ",
       "tags": ["humor"]
+    },
+    {
+      "title": "TIMELAPSE OF THE FUTURE: A Journey to the End of Time",
+      "youtube": "uD4izuDMUQA",
+      "tags": ["science"]
     }
   ],
   "music":
@@ -474,6 +479,17 @@ const content = {
       "artist": "Lady Gaga, Bradley Cooper",
       "spotify": "6QfS2wq5sSC1xAJCQsTSlj",
       "tags": ["folk", "pop"]
+    },
+    {
+      "title": "Recovery",
+      "artist": "Rival Consoles",
+      "spotify": "0vp09QgBhShrQOL2w7P8k4",
+      "tags": ["electronic"]
+    },
+    {
+      "title": "Samson",
+      "artist": "Regina Spektor",
+      "spotify": "2bbhyUWJ5VjdfI3P4PRLu2"
     },
     {
       "title": "Peace",

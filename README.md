@@ -8,4 +8,4 @@ Personal website with content of lifelong value.
 * ~~Autoplay music~~
 * Automatically scroll to top of containers
 * Automatically populate dropdown menus
-* Change as many Spotify embeds to YouTube as possible
+* Change as many Spotify embeds to YouTube as possible (better yet: support SoundCloud embeds)
