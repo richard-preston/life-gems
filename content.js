@@ -489,7 +489,8 @@ const content = {
     {
       "title": "Samson",
       "artist": "Regina Spektor",
-      "spotify": "2bbhyUWJ5VjdfI3P4PRLu2"
+      "spotify": "2bbhyUWJ5VjdfI3P4PRLu2",
+      "tags": ["folk"]
     },
     {
       "title": "Peace",
