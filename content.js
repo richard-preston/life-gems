@@ -130,7 +130,7 @@ const content = {
       "tags": ["art"]
     },
     {
-      "title": "AVATAR: THE LAST AIRBENDER - The Weight Of Cinema Analysis (Part 1/4)",
+      "title": "AVATAR: THE LAST AIRBENDER - The Weight Of Cinema Analysis",
       "caption": "Video essay about my favorite show.",
       "youtube": "W_UQ5RI38Qc",
       "tags": ["art"],
@@ -301,6 +301,66 @@ const content = {
       "title": "TIMELAPSE OF THE FUTURE: A Journey to the End of Time",
       "youtube": "uD4izuDMUQA",
       "tags": ["science"]
+    },
+    {
+      "title": "Kristin Chenoweth and Sarah Horn, For Good",
+      "caption": "This video is guaranteed to cheer you up.",
+      "youtube": "qxKjiJ2qwtU",
+      "tags": ["art"]
+    },
+    {
+      "title": "How To Change One's Mind",
+      "caption": "\"12 Angry Men\" is one of the few black-and-white movies that still hold up. This video takes the film as a case study in how to interact with someone you disagree with.",
+      "youtube": "NXjH3duyLKc",
+      "tags": ["philosophy"]
+    },
+    {
+      "title": "Mega Medley that was supposed to be 5 minutes but wasn't",
+      "caption": "One of the most amazing displays of talent I've ever seen.",
+      "youtube": "FaxqVBYVOVU",
+      "tags": ["art"]
+    },
+    {
+      "title": "Feynman on Scientific Method",
+      "youtube": "EYPapE-3FRw",
+      "tags": ["science"] 
+    },
+    {
+      "title": "A Journey to the End of the Universe",
+      "caption": "A beautiful, thought provoking video from a practicing astronomer.",
+      "youtube": "b_TkFhj9mgk",
+      "tags": ["science"]
+    },
+    {
+      "title": "rays last jump!",
+      "caption": "Watch Ray dicker the redneck lawn chair.",
+      "youtube": "hny1KcGiyr4",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Ben Folds Composes a Song LIVE for Orchestra In Only 10 Minutes",
+      "youtube": "BytUY_AwTUs",
+      "tags": ["art"]
+    },
+    {
+      "title": "Funny Mozart's ''Turkish March'' On a Calculators",
+      "youtube": "5Qf9ADP5Tis",
+      "tags": ["humor"]
+    },
+    {
+      "title": "My Heart Will Go On - Recorder By Candlelight by Matt Mulholland",
+      "youtube": "X2WH8mHJnhM",
+      "tags": ["humor"]
+    },
+    {
+      "title": "When a Costumed Person Destroys The Drums At Children’s Music Concert - NyangoStar",
+      "youtube": "QZShA_a-5r8",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Potter Puppet Pals: The Mysterious Ticking Noise",
+      "youtube": "Tx1XIm6q4r4",
+      "tags": ["humor"]
     }
   ],
   "music":
@@ -358,8 +418,7 @@ const content = {
       "tags": ["rock", "folk"]
     },
     {
-      "title": "Over My Head",
-      "caption": "(Cable Car)",
+      "title": "Over My Head (Cable Car)",
       "artist": "The Fray",
       "spotify": "1N62wozuHCvczCkY4QidpP",
       "tags": ["rock", "pop"]
@@ -461,8 +520,7 @@ const content = {
       "tags": ["electronic"]
     },
     {
-      "title": "I Took A Pill In Ibiza",
-      "caption": "(Seeb Remix)",
+      "title": "I Took A Pill In Ibiza - Seeb Remix",
       "artist": "Mike Posner",
       "spotify": "1MtUq6Wp1eQ8PC6BbPCj8P",
       "tags": ["electronic"]
@@ -493,8 +551,26 @@ const content = {
       "tags": ["folk"]
     },
     {
+      "title": "My Immortal",
+      "artist": "Evanescense",
+      "spotify": "4UzVcXufOhGUwF56HT7b8M",
+      "tags": ["rock"]
+    },
+    {
+      "title": "La de da de da de da de day oh",
+      "artist": "Bill Wurtz",
+      "youtube": "V0HCZ4YGqbw",
+      "tags": ["rnb"]
+    },
+    {
+      "title": "Stan",
+      "artist": "Eminem, Dido",
+      "spotify": "3UmaczJpikHgJFyBTAJVoz",
+      "tags": ["hiphop"]
+    },
+    {
       "title": "Peace",
-      "caption": "Avatar: The Last Airbender",
+      "caption": "<small><i>Avatar: The Last Airbender</i></small>",
       "artist": "Jeremy Zuckerman",
       "youtube": "2ftScS4fLbQ",
       "no_embed": true,
@@ -716,6 +792,12 @@ const content = {
       "artist": "Yiruma",
       "spotify": "47ZWr1Nb0PUgmKgyg5JkgO",
       "tags": ["classical"]
+    },
+    {
+      "title": "Thaïs: Méditation",
+      "artist": "Jules Massinet",
+      "spotify": "7LCs36H7QJEpQrpcBgaHCM",
+      "tags": ["classical"]
     }
   ],
   "word":
@@ -755,6 +837,14 @@ const content = {
     {
       "quote": "Wise men speak because they have something to say; fools because they have to say someting.",
       "author": "Commonly attributed to Plato"
+    },
+    {
+      "quote": "The curious paradox is that when I accept myself just as I am, then I can change.",
+      "author": "Carl Rogers"
+    },
+    {
+      "quote": "When you tear out a man's tongue, you are not proving him a liar, you're only telling the world that you fear what he might say.",
+      "author": "George R. R. Martin"
     }
   ],
   "cinema":

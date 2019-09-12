@@ -64,11 +64,18 @@ function generateVideo(video)  {
   const cardTitle = $('<h6 class="card-title" />')
     .text(video.title)
   cardBody.append(cardTitle)
-  if (video.caption) {
-    cardText = $('<div class="card-text" />')
-      .text(video.caption)
-    cardBody.append(cardText)
+  cardText = $('<div class="card-text" />')
+  if (video.artist) {
+    cardText.append('<p class="m-0">' + video.artist + '</p>')
   }
+  if (video.caption) {
+    const caption = $('<p>' + video.caption + '</p>')
+    if (video.artist) {
+      caption.addClass('font-italic')
+    }
+    cardText.append(caption)
+  }
+  cardBody.append(cardText)
   card.append(cardBody)
   return card
 }
@@ -93,10 +100,10 @@ function generateSpotify(song) {
   const spotify =  $('<div class="spotify" />')
     .append($('<div class="play-button" />'))
     .append($('<h6>' + song.title + '</h6>'))
-  if (song.caption) {
-    spotify.append($('<p class="small"><i>' + song.caption + '</i></p>'))
-  }
   spotify.append($('<p>' + song.artist + '</p>'))
+  if (song.caption) {
+    spotify.append($('<i class="small">' + song.caption + '</i>'))
+  }
   spotify.click(function () {
     const iframe = $('<iframe />')
       .attr('frameborder', '0')
