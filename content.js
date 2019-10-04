@@ -277,11 +277,6 @@ const content = {
       "tags": ["art"]
     },
     {
-      "title": "Feynman on Scientific Method.",
-      "youtube": "EYPapE-3FRw",
-      "tags": ["science"]
-    },
-    {
       "title": "A Universe Not Made For Us (Carl Sagan on religion)",
       "youtube": "Qfm0GCvsIVA",
       "tags": ["science", "religion"],
