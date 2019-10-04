@@ -177,6 +177,7 @@ function generateCinema(cinema) {
     const cardImg = $('<img class="card-img-top" />')
       .attr('src', POSTER_IMG + item.img)
       .attr('alt', item.title)
+      .attr('title', item.title)
     card.append(cardImg)
     const cardFooter = $('<div class="card-footer" />')
     if (item.netflix) {
@@ -214,6 +215,11 @@ function generateCinema(cinema) {
         .attr('href', YOUTUBE_LINK + item.youtube)
         .append($('<img src="images/youtube.png" />'))
       cardFooter.append(youtube)
+    }
+    if (item.link) {
+      const link = $('<a target="_blank">Other Link</>')
+        .attr('href', item.link)
+      cardFooter.append(link)
     }
     card.append(cardFooter)
     cardColumns.append(card)

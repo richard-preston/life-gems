@@ -356,6 +356,11 @@ const content = {
       "title": "Potter Puppet Pals: The Mysterious Ticking Noise",
       "youtube": "Tx1XIm6q4r4",
       "tags": ["humor"]
+    },
+    {
+      "title": "MozART group - How to impress a woman",
+      "youtube": "Nxgm27oWu3s",
+      "tags": ["humor"]
     }
   ],
   "music":
@@ -943,13 +948,6 @@ const content = {
       "youtube": "DqblKQxzRvM"
     },
     {
-      "title": "Game of Thrones",
-      "img": "MV5BMjAyNjc3NTAxMV5BMl5BanBnXkFtZTgwNTEzNTM1NzM@._V1_SY1000_CR0,0,562,1000_AL_.jpg",
-      "hbo": "series/urn:hbo:series:GVU2cggagzYNJjhsJATwo",
-      "amazon": "B007BVOEPI",
-      "youtube": "vxByZAPvRJA"
-    },
-    {
       "title": "Breaking Bad",
       "img": "MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,718,1000_AL_.jpg",
       "netflix": "70143836",
@@ -976,10 +974,33 @@ const content = {
       "youtube": "CSZeSlTrgMA"
     },
     {
+      "title": "Borat",
+      "img": "MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+      "amazon": "B000P4ME14",
+      "youtube": "5oZh7unviAI"
+    },
+    {
       "title": "Mr. Robot",
       "img": "MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
       "amazon": "B00YBX664Q",
       "youtube": "6ph_m-QfoC4"
+    },
+    {
+      "title": "Rick & Morty",
+      "img": "MV5BMjRiNDRhNGUtMzRkZi00MThlLTg0ZDMtNjc5YzFjYmFjMmM4XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
+      "hulu": "series/rick-and-morty-d76d6361-3fbf-4842-8dd7-e05520557280",
+      "amazon": "B0763C7RMK",
+      "youtube": "Fh4VA-qG-sE"
+    },
+    {
+      "title": "Stranger Things",
+      "img": "MV5BZGExYjQzNTQtNGNhMi00YmY1LTlhY2MtMTRjODg3MjU4YTAyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "netflix": "80057281",
+    },
+    {
+      "title": "The Genius",
+      "img": "MV5BMWQ3MTkyNTktMzk0OC00NmE4LWI0MjItN2ZjYmVmNjQwZTY2XkEyXkFqcGdeQXVyMjI4OTgyNjY@._V1_.jpg",
+      "link": "https://www.reddit.com/r/TheGenius/comments/70jog1/links_to_all_subbed_episodes_of_the_genius_s14/"
     }
   ]
 }
