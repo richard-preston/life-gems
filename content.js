@@ -798,6 +798,12 @@ const content = {
       "artist": "Jules Massinet",
       "spotify": "7LCs36H7QJEpQrpcBgaHCM",
       "tags": ["classical"]
+    },
+    {
+      "title": "All the Things You Are",
+      "artist": "Oscar Peterson",
+      "spotify": "3TSdkwPeUfvgLwNTF8gfC0",
+      "tags": ["jazz"]
     }
   ],
   "word":
