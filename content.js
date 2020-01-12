@@ -361,6 +361,117 @@ const content = {
       "title": "MozART group - How to impress a woman",
       "youtube": "Nxgm27oWu3s",
       "tags": ["humor"]
+    },
+    {
+      "title": "Samuel Barber - Adagio for Strings",
+      "caption": "An incredibly moving piece of music. If you closed your eyes, you would never guess it is being played by one guy and his cello.",
+      "youtube": "hfcZheDtUXc",
+      "tags": ["art"]
+    },
+    {
+      "title": "Hunted by Morgan Freeman",
+      "caption": "SeaNanners was a pioneer of video game content during the early days of YouTube. This is his most popular video.",
+      "youtube": "FDQx-guzx2s",
+      "tags": ["humor"]
+    },
+    {
+      "title": "How Star Wars was saved in the edit",
+      "youtube": "GFMyMxMYDNk",
+      "tags": ["art"]
+    },
+    {
+      "title": "How We Met At The Holocaust Museum",
+      "caption": "My favorite h3h3 video. So wholesome.",
+      "youtube": "Ec1syKOdlwo",
+      "tags": ["art", "humor"]
+    },
+    {
+      "title": "Threw It On The Ground",
+      "caption": "Happy birthday to the ground!",
+      "youtube": "gAYL5H46QnQ",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Remove cat before flight",
+      "youtube": "J_8mdH20qTQ",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Special Delivery!",
+      "youtube": "qjklfGi6aC0",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Vermin Supreme: When I'm President Everyone Gets A Free Pony",
+      "youtube": "4d_FvgQ1csE",
+      "tags": ["humor", "politics"]
+    },
+    {
+      "title": "Science can answer moral questions | Sam Harris",
+      "youtube": "Hj9oB4zpHww",
+      "tags": ["philosophy", "science", "religion"]
+    },
+    {
+      "title": "State of Georgia Vs. Denver Fenton Allen | Rick and Morty",
+      "caption": "A court transcript voiced by Justin Roiland.",
+      "youtube": "7vN_PEmeKb0",
+      "tags": ["humor"]
+    },
+    {
+      "title": "\"Weird\" Al Yankovic - Amish Paradise",
+      "caption": "Weird Al's best song.",
+      "youtube": "lOfZLb33uCg",
+      "tags": ["humor"]
+    },
+    {
+      "title": "just playing some pokémon blue",
+      "youtube": "0AegLCRZZvU",
+      "tags": ["humor"]
+    },
+    {
+      "title": "Fighting for the Right to Party in Delaware",
+      "caption": "Chad goes deep.",
+      "youtube": "FsRv1SmjSI8",
+      "tags": ["humor", "politics"]
+    },
+    {
+      "title": "Pentagon Wars - Bradley Fighting Vehicle Evolution",
+      "caption": "A hilarious sequence from the movie \"The Pentagon Wars\", in which the protagonist (Col. James Burton) discovers how the Bradley Fighting Vehicle got its bizarre design. Based on a true story.",
+      "youtube": "aXQ2lO3ieBA",
+      "tags": ["humor", "politics"]
+    },
+    {
+      "title": "The real meaning of MPH",
+      "caption": "We watched this video in my high school physics class as an example of how to overthink a problem.",
+      "youtube": "Qhm7-LEBznk",
+      "tags": ["humor", "science"]
+    },
+    {
+      "title": "The Fallen of World War II",
+      "caption": "An infographic documentary emphasizing the value of peace",
+      "youtube": "DwKPFT-RioU",
+      "tags": ["art", "politics"]
+    },
+    {
+      "title": "Oscar Peterson - C Jam Blues",
+      "caption": "Rare footage of one of the greatest jazz musicians of all time",
+      "youtube": "NTJhHn-TuDY",
+      "tags": ["art"]
+    },
+    {
+      "title": "George Lucas Reacts to Star Wars: The Rise of Skywalker Final Trailer - Salty Celebrity Deepfake",
+      "youtube": "_MuxVqB3I7E",
+      "tags": ["humor"]
+    },
+    {
+      "title": "KENOBI - A Star Wars Fan Film",
+      "youtube": "3uDwjIBR9s4",
+      "tags": ["art"]
+    },
+    {
+      "title": "Barack Obama Speech at 2004 DNC Convention",
+      "youtube": "eWynt87PaJ0",
+      "tags": ["politics"]
     }
   ],
   "music":
@@ -567,6 +678,30 @@ const content = {
       "artist": "Eminem, Dido",
       "spotify": "3UmaczJpikHgJFyBTAJVoz",
       "tags": ["hiphop"]
+    },
+    {
+      "title": "Both Sides Now",
+      "artist": "Joni Mitchell",
+      "spotify": "1pjATX7sbd6Y4jMVqIvzHk",
+      "tags": ["folk"]
+    },
+    {
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "spotify": "4h8VwCb1MTGoLKueQ1WgbD",
+      "tags": ["electronic"]
+    },
+    {
+      "title": "Wake Me up When September Ends",
+      "artist": "Green Day",
+      "spotify": "3ZffCQKLFLUvYM59XKLbVm",
+      "tags": ["rock"]
+    },
+    {
+      "title": "Harder, Better, Faster, Stronger",
+      "artist": "Daft Punk",
+      "spotify": "5W3cjX2J3tjhG8zb6u0qHn",
+      "tags": ["electronic"]
     },
     {
       "title": "Peace",
@@ -842,7 +977,7 @@ const content = {
     },
     {
       "quote": "Wise men speak because they have something to say; fools because they have to say someting.",
-      "author": "Commonly attributed to Plato"
+      "author": "Plato (commonly attributed)"
     },
     {
       "quote": "The curious paradox is that when I accept myself just as I am, then I can change.",
@@ -851,6 +986,10 @@ const content = {
     {
       "quote": "When you tear out a man's tongue, you are not proving him a liar, you're only telling the world that you fear what he might say.",
       "author": "George R. R. Martin"
+    },
+    {
+      "quote": "It ain’t what you know that gets you into trouble. It’s what you know for sure that just ain’t so.",
+      "author": "Mark Twain (commonly attributed)"
     }
   ],
   "cinema":
@@ -926,6 +1065,50 @@ const content = {
       "youtube": "loJGSgb9PUE"
     },
     {
+      "title": "12 Angry Men",
+      "img": "MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg",
+      "amazon": "B07JDJC19M",
+      "youtube": "J61XJhYiUpg"
+    },
+    {
+      "title": "Interstellar",
+      "img": "MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
+      "amazon": "B00VFTAXUC",
+      "youtube": "Df7IEKqimOY"
+    },
+    {
+      "title": "Good Will Hunting",
+      "img": "MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,655,1000_AL_.jpg",
+      "netflix": "17405997",
+      "amazon": "B006RXPT82",
+      "youtube": "CSZeSlTrgMA"
+    },
+    {
+      "title": "Borat",
+      "img": "MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+      "amazon": "B000P4ME14",
+      "youtube": "5oZh7unviAI"
+    },
+    {
+      "title": "Spotlight",
+      "img": "MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+      "amazon": "B01AZ86LFO",
+      "youbute": "DCIL7WbyIKM"
+    },
+    {
+      "title": "The Big Short",
+      "img": "MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX640_CR0,0,640,999_AL_.jpg",
+      "amazon": "B019969US8",
+      "youtube": "j13KSg4l9gM"
+    },
+    {
+      "title": "The Matrix",
+      "img": "MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+      "netflix": "20557937",
+      "amazon": "B001XVD2Z0",
+      "youtube": "qEXv-rVWAu8"
+    },
+    {
       "title": "The Office",
       "img": "MV5BMTgzNjAzMDE0NF5BMl5BanBnXkFtZTcwNTEyMzM3OA@@._V1_SY1000_CR0,0,736,1000_AL_.jpg",
       "netflix": "70136120",
@@ -959,31 +1142,6 @@ const content = {
       "netflix": "70143836",
       "amazon": "B003CH9PTU",
       "youtube": "PNxGMkcus_g"
-    },
-    {
-      "title": "12 Angry Men",
-      "img": "MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg",
-      "amazon": "B07JDJC19M",
-      "youtube": "J61XJhYiUpg"
-    },
-    {
-      "title": "Interstellar",
-      "img": "MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
-      "amazon": "B00VFTAXUC",
-      "youtube": "Df7IEKqimOY"
-    },
-    {
-      "title": "Good Will Hunting",
-      "img": "MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,655,1000_AL_.jpg",
-      "netflix": "17405997",
-      "amazon": "B006RXPT82",
-      "youtube": "CSZeSlTrgMA"
-    },
-    {
-      "title": "Borat",
-      "img": "MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
-      "amazon": "B000P4ME14",
-      "youtube": "5oZh7unviAI"
     },
     {
       "title": "Mr. Robot",
