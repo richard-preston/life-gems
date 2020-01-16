@@ -454,7 +454,7 @@ const content = {
     },
     {
       "title": "Oscar Peterson - C Jam Blues",
-      "caption": "Rare footage of one of the greatest jazz musicians of all time",
+      "caption": "C Jam Blues is one of the most basic jazz tunes you first learn as a beginner. Oscar Peterson brings it to the highest level in this video.",
       "youtube": "NTJhHn-TuDY",
       "tags": ["art"]
     },
